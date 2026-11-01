@@ -58,7 +58,7 @@ jobs:
         comment-on-alert: true
         fail-on-alert: true
 
-  publish-page:
+  publish:
     # Runs after the matrix jobs, so the pushes to gh-pages cannot race each other.
     name: Publish benchmark page
     needs: benchmark
